@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sinchana Arun | AI Engineering Student</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        .gradient-text {
+            background: linear-gradient(135deg, #6366f1 0%, #a855f7 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .skill-card:hover {
+            transform: translateY(-5px);
+            transition: all 0.3s ease;
+        }
+
+        .glass-nav {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid rgba(229, 231, 235, 0.5);
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 glass-nav">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <span class="text-xl font-bold gradient-text">SA.</span>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#about" class="hover:text-indigo-600 transition">About</a>
+                    <a href="#skills" class="hover:text-indigo-600 transition">Skills</a>
+                    <a href="#education" class="hover:text-indigo-600 transition">Education</a>
+                    <a href="#certificates" class="hover:text-indigo-600 transition">Certificates</a>
+                    <a href="#contact" class="px-4 py-2 bg-indigo-600 text-white rounded-full hover:bg-indigo-700 transition">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="pt-32 pb-16 px-4">
+        <div class="max-w-4xl mx-auto text-center">
+            <div class="w-32 h-32 bg-indigo-100 rounded-full mx-auto mb-8 flex items-center justify-center border-4 border-white shadow-lg overflow-hidden">
+                <i class="fa-solid fa-user-tie text-5xl text-indigo-500"></i>
+            </div>
+            <h1 class="text-5xl md:text-6xl font-bold mb-4 tracking-tight">Sinchana Arun</h1>
+            <p class="text-xl text-slate-600 font-medium mb-6">AI Engineering Student & Problem Solver</p>
+            <p class="text-lg text-slate-500 max-w-2xl mx-auto leading-relaxed">
+                First-year AI Engineering student at St Aloysius School of Engineering with a passion for programming and artificial intelligence. Seeking opportunities to grow and apply technical skills in real-world environments.
+            </p>
+            <div class="mt-10 flex justify-center gap-4">
+                <a href="#contact" class="px-8 py-3 bg-slate-900 text-white rounded-xl hover:bg-slate-800 transition shadow-xl">Hire Me</a>
+                <a href="mailto:sinchanaarun8@gmail.com" class="px-8 py-3 bg-white border border-slate-200 rounded-xl hover:border-indigo-400 transition shadow-sm">Email CV</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-16">Technical Expertise</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                <div class="p-6 bg-slate-50 rounded-2xl skill-card text-center">
+                    <i class="fa-solid fa-code text-3xl text-indigo-600 mb-4"></i>
+                    <h3 class="font-semibold">C & C++</h3>
+                    <p class="text-sm text-slate-500 mt-2">Programming Foundations</p>
+                </div>
+                <div class="p-6 bg-slate-50 rounded-2xl skill-card text-center">
+                    <i class="fa-solid fa-database text-3xl text-indigo-600 mb-4"></i>
+                    <h3 class="font-semibold">SQL</h3>
+                    <p class="text-sm text-slate-500 mt-2">Database Queries</p>
+                </div>
+                <div class="p-6 bg-slate-50 rounded-2xl skill-card text-center">
+                    <i class="fa-solid fa-brain text-3xl text-indigo-600 mb-4"></i>
+                    <h3 class="font-semibold">AI Basics</h3>
+                    <p class="text-sm text-slate-500 mt-2">Machine Learning concepts</p>
+                </div>
+                <div class="p-6 bg-slate-50 rounded-2xl skill-card text-center">
+                    <i class="fa-brands fa-html5 text-3xl text-indigo-600 mb-4"></i>
+                    <h3 class="font-semibold">HTML</h3>
+                    <p class="text-sm text-slate-500 mt-2">Web Development</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Timeline -->
+    <section id="education" class="py-20 bg-slate-50">
+        <div class="max-w-4xl mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-12 flex items-center gap-3">
+                <i class="fa-solid fa-graduation-cap text-indigo-600"></i> Education
+            </h2>
+            <div class="space-y-8 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-slate-300 before:to-transparent">
+                
+                <!-- University -->
+                <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
+                    <div class="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-slate-300 group-hover:bg-indigo-600 group-hover:text-white transition shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
+                        <i class="fa-solid fa-school text-xs"></i>
+                    </div>
+                    <div class="w-[calc(100%-4rem)] md:w-[45%] p-6 rounded-2xl bg-white border border-slate-200 shadow-sm">
+                        <time class="font-bold text-indigo-600 mb-1 block">2025 - 2029</time>
+                        <h4 class="font-bold text-lg">B.Tech in AIML Engineering</h4>
+                        <p class="text-slate-600">St Aloysius School of Engineering</p>
+                        <p class="text-sm text-slate-400">Deemed to be University</p>
+                    </div>
+                </div>
+
+                <!-- PUC -->
+                <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
+                    <div class="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-slate-300 group-hover:bg-indigo-600 group-hover:text-white transition shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
+                        <i class="fa-solid fa-building-columns text-xs"></i>
+                    </div>
+                    <div class="w-[calc(100%-4rem)] md:w-[45%] p-6 rounded-2xl bg-white border border-slate-200 shadow-sm">
+                        <time class="font-bold text-indigo-600 mb-1 block">2023 - 2025</time>
+                        <h4 class="font-bold text-lg">PUC / 12th Standard</h4>
+                        <p class="text-slate-600">St. Agnes PU College</p>
+                        <p class="font-semibold text-emerald-600">Percentage: 81%</p>
+                    </div>
+                </div>
+
+                <!-- 10th -->
+                <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group">
+                    <div class="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-slate-300 group-hover:bg-indigo-600 group-hover:text-white transition shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
+                        <i class="fa-solid fa-book-open text-xs"></i>
+                    </div>
+                    <div class="w-[calc(100%-4rem)] md:w-[45%] p-6 rounded-2xl bg-white border border-slate-200 shadow-sm">
+                        <time class="font-bold text-indigo-600 mb-1 block">2022 - 2023</time>
+                        <h4 class="font-bold text-lg">10th Standard</h4>
+                        <p class="text-slate-600">Nithyadar English Medium School</p>
+                        <p class="font-semibold text-emerald-600">Percentage: 82%</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates & Extras -->
+    <section id="certificates" class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="grid md:grid-cols-2 gap-12">
+                <!-- Certifications -->
+                <div>
+                    <h2 class="text-3xl font-bold mb-8">Certifications</h2>
+                    <ul class="space-y-4">
+                        <li class="flex items-start gap-4 p-4 bg-slate-50 rounded-xl">
+                            <i class="fa-solid fa-robot text-indigo-500 mt-1"></i>
+                            <div>
+                                <h4 class="font-semibold">Build Your Own Chatbot</h4>
+                                <p class="text-sm text-slate-500">Professional Certification</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start gap-4 p-4 bg-slate-50 rounded-xl">
+                            <i class="fa-brands fa-microsoft text-indigo-500 mt-1"></i>
+                            <div>
+                                <h4 class="font-semibold">Microsoft Azure Learning</h4>
+                                <p class="text-sm text-slate-500">Cloud Computing Basics</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start gap-4 p-4 bg-slate-50 rounded-xl">
+                            <i class="fa-brands fa-google text-indigo-500 mt-1"></i>
+                            <div>
+                                <h4 class="font-semibold">Google Cloud Fundamentals</h4>
+                                <p class="text-sm text-slate-500">Cloud Infrastructure</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Languages & Hobbies -->
+                <div class="space-y-12">
+                    <div>
+                        <h2 class="text-2xl font-bold mb-6">Languages</h2>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="px-4 py-2 bg-indigo-50 text-indigo-700 rounded-full font-medium">English</span>
+                            <span class="px-4 py-2 bg-indigo-50 text-indigo-700 rounded-full font-medium">Kannada</span>
+                            <span class="px-4 py-2 bg-indigo-50 text-indigo-700 rounded-full font-medium">Tulu</span>
+                            <span class="px-4 py-2 bg-indigo-50 text-indigo-700 rounded-full font-medium">Hindi</span>
+                        </div>
+                    </div>
+                    <div>
+                        <h2 class="text-2xl font-bold mb-6">Hobbies</h2>
+                        <div class="flex gap-8 text-slate-600">
+                            <div class="text-center">
+                                <div class="w-12 h-12 bg-slate-100 rounded-full flex items-center justify-center mb-2 mx-auto"><i class="fa-solid fa-palette"></i></div>
+                                <span class="text-sm">Drawing</span>
+                            </div>
+                            <div class="text-center">
+                                <div class="w-12 h-12 bg-slate-100 rounded-full flex items-center justify-center mb-2 mx-auto"><i class="fa-solid fa-book"></i></div>
+                                <span class="text-sm">Reading</span>
+                            </div>
+                            <div class="text-center">
+                                <div class="w-12 h-12 bg-slate-100 rounded-full flex items-center justify-center mb-2 mx-auto"><i class="fa-solid fa-music"></i></div>
+                                <span class="text-sm">Dancing</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer / Contact -->
+    <footer id="contact" class="bg-slate-900 text-white py-16">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-4">Let's Connect</h2>
+            <p class="text-slate-400 mb-10">Available for collaborations and internship opportunities.</p>
+            
+            <div class="flex flex-col md:flex-row items-center justify-center gap-6 mb-12">
+                <a href="mailto:sinchanaarun8@gmail.com" class="flex items-center gap-3 bg-slate-800 px-6 py-4 rounded-2xl hover:bg-indigo-600 transition w-full md:w-auto">
+                    <i class="fa-solid fa-envelope text-xl"></i>
+                    <span>sinchanaarun8@gmail.com</span>
+                </a>
+                <div class="flex items-center gap-3 bg-slate-800 px-6 py-4 rounded-2xl w-full md:w-auto">
+                    <i class="fa-solid fa-phone text-xl text-indigo-400"></i>
+                    <span>+91 8762036881</span>
+                </div>
+            </div>
+
+            <div class="border-t border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center text-slate-500 text-sm">
+                <p>&copy; 2024 Sinchana Arun. All rights reserved.</p>
+                <div class="flex gap-6 mt-4 md:mt-0">
+                    <a href="#" class="hover:text-white transition">LinkedIn</a>
+                    <a href="#" class="hover:text-white transition">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
+
